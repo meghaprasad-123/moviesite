@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600&family=Kanit:wght@500&family=Rajdhani:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner {
+    width: 100%;
+    background: url(images/banner1.jpg)rgba(0, 0, 0, 0.4);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    margin-bottom: 1.25rem;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+.navbar-brand span {
+    color: rgb(243, 78, 161);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin: auto;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+button {
+    padding: 0.5rem;
+    background-color: rgb(243, 78, 161);
+    border: none;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+hr {
+    color: white;
+    margin: 0;
+}
+.navbar-toggler{
+    background-color: rgb(244, 142, 200);
+}
+.row {
+    width: 100%;
+}
+
+#heading {
+    margin: 11rem 0 3.125rem 2rem;
+}
+
+#heading h2 {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px #808080;
+}
+
+#heading h6 {
+    color: white;
+    line-height: 1.6rem;
+    margin-bottom: 1.5625rem;
+}
+
+.container {
+    margin-bottom: 25px;
+}
+
+.search {
+    width: 15%;
+    color: white;
+}
+
+.search:hover {
+    background: white;
+    color: rgb(243, 78, 161);
+}
+
+#fills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.fill{
+    padding: 6px;
+    background: linear-gradient(to right , white, #ef2a97ba);
+    border-radius: 5px;
+    margin: 0 15px 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+.acu{
+    background: rgb(233, 120, 63);
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url(./images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.movie {
+    width: 18.75rem;
+    margin: 1.2rem;
+    border-radius: 4px;
+    background-color: rgb(108, 74, 74);
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.movie:hover {
+    box-shadow: 0 15px 25px rgba(220, 216, 216, 0.851);
+
+    -webkit-transform: translateY(-3px);
+
+    transform: translateY(-3px);
+
+    transition: all 0.7s ease-out 0s;
+}
+
+.movie img {
+    width: 100%;
+}
+
+.movie-info {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+}
+
+.movie-info h3 {
+    font-size: 1rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.movie-info span {
+    background-color: rgb(238, 226, 226);
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    color: darkred;
+}
+.nop{
+    color: bisque;
+    margin: 40px 0;
+}
+
+
+
+@media(max-width:988px) {
+    #heading {
+        width: 80%;
+    }
+}
+
+@media(max-width:768px) {
+    :root {
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width:576px) {
+    #heading {
+        width: 95%;
+    }
+
+}
